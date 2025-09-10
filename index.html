@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Managment System</title>
+</head>
+
+<body>
+    <h1>Employee Managment System</h1>
+
+    <div>
+        <button onclick="displayEmployees()">Display Employees</button>
+        <button onclick="calculateTotalSalaries()">Calculate Total Salries</button>
+        <button onclick ="displayHREmployees()">Display HR Employees</button>
+    </div>
+    
+    <h2> Find Emplyee by ID </h2>
+    <label for="employeeIdInput">Enter Employee ID:</label>
+    <input type="number" id="employeeIdInput" min="1" placeholder="e.g. 1"/>
+
+    <button onclick="findEmployeeById(Number(document.getElementById('employeeIdInput').value))">
+        Search 
+    </button>
+    
+    <div id="employeeDetails" style="margin-top: 20px;"></div>
+    <script src="./employee_details.js"></script>
+</body>
+   
+</html>   
+
