@@ -6,7 +6,7 @@ It allows users to display employees, calculate total salaries, filter HR employ
 ---
 
 ## 🚀 Live Demo
-👉 [Try it here](https://Kteferra22.github.io/employee-management-system/)
+👉 [Try it here](https://Kteferra22.github.io/employee-managment-system/)
 
 ---
 
